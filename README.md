@@ -13,8 +13,12 @@ Run
 to compile all the java.
 
 If you are using linux, you may want to change the line
+
 `@javac -d $(BINDIR)/ -cp "$(BINDIR)/encog-core-3.4.jar;$(BINDIR)/" $<`
+
 to 
+
 `@javac -d $(BINDIR)/ -cp "$(BINDIR)/encog-core-3.4.jar:$(BINDIR)/" $<`.
+
 
 Then run the `Master.py` file. This can be done with `make run`.
