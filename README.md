@@ -7,12 +7,14 @@ I used a Monte-Carlo tree search that used a heuristic evaluation instead of a s
 a neural network that was trained to predict the winner of the game from a given position. The AI worked fairly well
 in the end I came second in the competition.
 
+I don't particularly like java, but I coded this project in java as practice for second year computer science.
+
 # How to run
 Run
 `make`
 to compile all the java.
 
-If you are using linux, you may want to change the line
+If you are using linux, you may want to change the following line in the makefile
 
 `@javac -d $(BINDIR)/ -cp "$(BINDIR)/encog-core-3.4.jar;$(BINDIR)/" $<`
 
